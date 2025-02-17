@@ -1,0 +1,93 @@
+/* Reset CSS - Versão Avançada */
+
+/* Remove margens, paddings e força o uso de border-box */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+/* Definições padrão para html e body */
+html {
+    font-size: 16px;
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    -moz-tab-size: 4;
+    tab-size: 4;
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    min-height: 100vh;
+    font-family: sans-serif;
+    color: #333;
+    background-color: #fff;
+    text-rendering: optimizeLegibility;
+}
+
+/* Remover estilos padrão de listas */
+ul, ol {
+    list-style: none;
+}
+
+/* Normalizar links */
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Melhorar exibição de imagens e mídias */
+img, picture, video, canvas, svg {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Reset para elementos interativos */
+button, input, textarea, select {
+    font: inherit;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Melhorar acessibilidade e visibilidade */
+[hidden] {
+    display: none !important;
+}
+
+/* Tabelas responsivas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+th, td {
+    padding: 0.5rem;
+    text-align: left;
+}
+
+/* Formatação base para inputs */
+input, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease-in-out;
+}
+
+input:focus, textarea:focus {
+    border-color: #007bff;
+}
+
