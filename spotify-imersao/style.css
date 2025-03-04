@@ -1,5 +1,5 @@
 body {
-	background-color: #000;
+	background-color: #ddd;
 }
 
 .sidebar{
@@ -43,4 +43,93 @@ body {
 	font-size: 14px;
 	text-decoration: none;
 	font-family: "DM Sans", sans-serif;
+}
+
+.library {
+	background-color: #121212;
+	border-radius: 10px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	padding: 4px 8px;
+	color: #b3b3b3;
+	font-weight: 600;
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+.library .library_content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.library .library_button {
+	margin-right: 10px;
+	color: #b3b3b3;
+	background-color: transparent;
+	border: 0px;
+	font-size: 14px;
+	font-weight: 700;
+	font-family: "DM Sans", sans-serif;
+	text-align: center;
+	text-decoration: none;
+	text-transform: none;
+	padding: 20px 10px;
+	display: flex;
+}
+
+.library .library_button .oi {
+	font-size: 20px;
+	margin-right: 10px;
+	font-weight: 300;
+	padding-right: 8px;
+}
+
+.library .library_content .oi-plus {
+	margin: 24px 10px;
+}
+
+.section-playlist {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	gap: 20px;
+	background-color: #242424;
+	color:#b3b3b3;
+	font-weight: 600;
+	font-size: 14px;
+	margin: 8px 0px;
+	padding: 16px 20px;
+}
+
+.section-playlist .section-playlist_content {
+	display: flex;
+	flex-direction: column; 
+}
+.section-playlist_content .text {
+	padding-bottom: 14px;
+	color: #fff;
+}
+
+.section-playlist_content .title {
+	font-weight: 700;
+}
+.section-playlist_content .subtitle {
+	font-size: 12px;
+	font-weight: 500;
+}
+
+.section-playlist_content .section-playlist_button {
+	background-color: #fff;
+	color: #000;
+	border-radius: 20px;
+	font-size: 12px;
+	font-weight: 700;
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+	border: 0px;
+	margin-top: 12px;
+	width: 113px;
 }
